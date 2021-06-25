@@ -1,0 +1,47 @@
+body {
+    font-family: monospace;
+    font-size: 14px;
+    background-color: hsl(230, 17%, 14%);
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.hero-container {
+    background-color: hsl(232, 19%, 15%);
+    width: 100vh;
+    height: 30vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.theme-toggle {
+    /* Insert code here  */
+}
+
+.favorites {
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.favorites-box {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: hsl(228, 28%, 20%);
+    padding: 215px;
+}
