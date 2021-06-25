@@ -1,33 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
 body {
-    font-family: monospace;
-    font-size: 14px;
     background-color: hsl(230, 17%, 14%);
     color: white;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .hero-container {
-    background-color: hsl(232, 19%, 15%);
-    width: 100vh;
-    height: 30vh;
+    background-color: hsla(232, 19%, 15%, 0.671);
+    width: 100%;
+    height: 25%;
     top: 0;
     left: 0;
     position: absolute;
     border-radius: 0px 0px 20px 20px;
 }
 
-.theme-toggle {
+#theme-toggle {
     /* Insert code here  */
 }
 
@@ -37,11 +45,34 @@ h3 {
     display: flexbox;
     margin-right: auto;
     margin-left: auto;
+    width: 75%;
 }
 
 .favorites-box {
     display: inline-block;
     border-radius: 10px;
     background-color: hsl(228, 28%, 20%);
-    padding: 215px;
+    width: 215px;
+    border-spacing: 15px 10px;
+}
+
+.caption {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.overview {
+    display: flex;
+    border-spacing: 15px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    position: 
+}
+
+.overview-box {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: hsl(228, 28%, 20%);
+    width: 215px;
 }
