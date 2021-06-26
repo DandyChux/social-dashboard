@@ -36,7 +36,7 @@ h3 {
 }
 
 #theme-toggle {
-    /* Insert code here  */
+    border-radius: 10px;
 }
 
 .favorites {
@@ -62,12 +62,12 @@ h3 {
 }
 
 .overview {
-    display: flex;
+    display: grid;
     border-spacing: 15px;
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    position: 
+    text-align: center;
 }
 
 .overview-box {
